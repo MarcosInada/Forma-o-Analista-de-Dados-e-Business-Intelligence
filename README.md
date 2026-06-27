@@ -23,22 +23,29 @@ seu negócio
 ## 🧠 Processo de Desenvolvimento
 
 ### 1. Extração e Transformação dos Dados (ETL)
-* Conexão com as fontes de dados (`[Ex: Arquivos CSV / Banco de Dados SQL]`).
+* Conexão com as fontes de dados (Dados`[Protected View - Excel]`).
 * Limpeza de dados: remoção de duplicatas, tratamento de valores nulos e alteração de tipos de dados.
-* Criação da tabela calendário automatizada.
+  
 
 ### 2. Modelagem de Dados
 O modelo de dados foi estruturado seguindo o modelo **Star Schema** (Esquema Estrela), garantindo a performance das consultas:
 * **Tabelas Fato:** `fVendas`
-* **Tabelas Dimensão:** `dProdutos`, `dClientes`, `dRegiao`, `dCalendario`
+* **Tabelas Dimensão:** `dimensaoproduto`, `dimencaocliente`, `dimensaovendedor``dimensaotempo´, `fatovendas`
   
 ### Modelo  Relacional 
   ![Modelo Relacional JJBIKE](modelo.relacional.jjbike.png) 
 
+  ### Scripts Utilizados para criar o DW
+![scripts para criar o DW](scripts.usados.png) 
+
+  
+
 ### 3. Principais Métricas Criadas (DAX / Cálculos)
 Aqui estão algumas das principais medidas calculadas para o negócio:
-* **Faturamento Total:** `Faturamento = SUM(fVendas[Valor])`
-* **Margem de Lucro %:** `Margem % = DIVIDE([Lucro Total], [Faturamento], 0)`
+* ** Clientes Total por ESTADO, TOTAL POR CLIENTE, TOTAL POR SEXO, 5 MAIORES CLIENTES
+* ** VENDEDORES 5 MELHORES VENDEDORES E 5 PIORES VENDEDORES
+* ** produtos 5 mais vendidos e 5 menos vendidos, maiores descontos e menores descontos
+* ** VENDAS AS VENDAS POR PRODUTOS 
 
 ---
 
@@ -49,7 +56,7 @@ Aqui estão algumas das principais medidas calculadas para o negócio:
 
 ### Visualização das Telas:
 
-#### Tela 1: Visão Geral de Vendas
+#### Tela 1: ANALISE PERFIL DO CLIENTE 
 ![Visão Geral](imagens/print_tela_1.png)
 
 #### Tela 2: Análise de Clientes
