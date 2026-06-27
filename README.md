@@ -57,7 +57,7 @@ Aqui estão algumas das principais medidas calculadas para o negócio:
 ### Visualização das Telas:
 
 #### Tela 1: ANALISE PERFIL DO CLIENTE 
-![Visão Geral](imagens/print_tela_1.png)
+![analise-perfil-cliente](analise.perfil-cliente.png)
 
 #### Tela 2: Análise de Clientes
 ![Análise de Clientes](imagens/print_tela_2.png)
