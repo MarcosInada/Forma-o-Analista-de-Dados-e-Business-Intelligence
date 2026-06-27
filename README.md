@@ -33,8 +33,7 @@ O modelo de dados foi estruturado seguindo o modelo **Star Schema** (Esquema Est
 * **Tabelas Dimensão:** `dProdutos`, `dClientes`, `dRegiao`, `dCalendario`
 
   ## Modelo relacional
-  ![Modelo Relacional JJBIKE]
-  (modelo.relacional.jjbike.png) 
+  ![Modelo Relacional JJBIKE](modelo.relacional.jjbike.png) 
 
 ### 3. Principais Métricas Criadas (DAX / Cálculos)
 Aqui estão algumas das principais medidas calculadas para o negócio:
