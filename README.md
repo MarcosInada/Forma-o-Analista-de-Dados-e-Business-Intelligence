@@ -63,6 +63,7 @@ Aqui estão algumas das principais medidas calculadas para o negócio:
 ![Análise de vendedores](Definitivo.png)
 
 #### Tela 3: Análise de produtos
+
 ![Análise de produtos]()  
 
 #### Tela 4: Análise de vendas 
