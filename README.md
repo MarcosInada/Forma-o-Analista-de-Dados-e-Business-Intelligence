@@ -59,10 +59,16 @@ Aqui estão algumas das principais medidas calculadas para o negócio:
 #### Tela 1: ANALISE PERFIL DO CLIENTE 
 ![analise-perfil-cliente](analise.perfil-cliente.png)
 
-#### Tela 2: Análise de Clientes
-![Análise de Clientes](imagens/print_tela_2.png)
+#### Tela 2: Análise de vendedores
+![Análise de vendedores](Definitivo.png)
 
----
+#### Tela 3: Análise de produtos
+![Análise de produtos]()  
+
+#### Tela 4: Análise de vendas 
+
+![Análise de vendas]()  
+
 
 ## 💡 Insights Extraídos do Projeto
 *(Muito importante para portfólio! Mostre que você sabe analisar os gráficos)*
