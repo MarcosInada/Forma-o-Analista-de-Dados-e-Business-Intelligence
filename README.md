@@ -60,7 +60,7 @@ Aqui estão algumas das principais medidas calculadas para o negócio:
 ![analise-perfil-cliente](analise.perfil-cliente.png)
 
 #### Tela 2: Análise de vendedores
-![Análise de vendedores](Definitivo.png)
+![Análise de vendedores](vendedores.png)
 
 #### Tela 3: Análise de produtos
 
